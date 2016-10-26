@@ -38,12 +38,12 @@
 		81D9621463A7404DAC77839259365800 /* rtmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6FFEBFE452622B266227F4F5F6AA40 /* rtmp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8231A866A58DF8BF7400D745C46787A6 /* QNResolvUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D936818A1DFF229A15BE11C75B43B31B /* QNResolvUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		830AF14825B077808B6E3F6DD67C8170 /* QNDnspodEnterprise.h in Headers */ = {isa = PBXBuildFile; fileRef = C55317B9A3235A54AADA5D23A1143E66 /* QNDnspodEnterprise.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		841C1F251DC0AC510057156F /* api-diffs-1.2.0.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F1F1DC0AC510057156F /* api-diffs-1.2.0.md */; settings = {ASSET_TAGS = (); }; };
-		841C1F261DC0AC510057156F /* api-diffs-1.2.1.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F201DC0AC510057156F /* api-diffs-1.2.1.md */; settings = {ASSET_TAGS = (); }; };
-		841C1F271DC0AC510057156F /* api-diffs-1.2.2.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F211DC0AC510057156F /* api-diffs-1.2.2.md */; settings = {ASSET_TAGS = (); }; };
-		841C1F281DC0AC510057156F /* api-diffs-1.2.3.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F221DC0AC510057156F /* api-diffs-1.2.3.md */; settings = {ASSET_TAGS = (); }; };
-		841C1F291DC0AC510057156F /* api-diffs-1.2.4.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F231DC0AC510057156F /* api-diffs-1.2.4.md */; settings = {ASSET_TAGS = (); }; };
-		841C1F2A1DC0AC510057156F /* api-diffs-1.2.5.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F241DC0AC510057156F /* api-diffs-1.2.5.md */; settings = {ASSET_TAGS = (); }; };
+		841C1F251DC0AC510057156F /* api-diffs-1.2.0.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F1F1DC0AC510057156F /* api-diffs-1.2.0.md */; };
+		841C1F261DC0AC510057156F /* api-diffs-1.2.1.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F201DC0AC510057156F /* api-diffs-1.2.1.md */; };
+		841C1F271DC0AC510057156F /* api-diffs-1.2.2.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F211DC0AC510057156F /* api-diffs-1.2.2.md */; };
+		841C1F281DC0AC510057156F /* api-diffs-1.2.3.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F221DC0AC510057156F /* api-diffs-1.2.3.md */; };
+		841C1F291DC0AC510057156F /* api-diffs-1.2.4.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F231DC0AC510057156F /* api-diffs-1.2.4.md */; };
+		841C1F2A1DC0AC510057156F /* api-diffs-1.2.5.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F241DC0AC510057156F /* api-diffs-1.2.5.md */; };
 		8B7B75BDDA8FB5F466A5CB10D5811A26 /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = DD57217828306B73D23A42108F9882D3 /* log.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9312CCF6629B882D670E8AF398A91172 /* QNRefresher.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5B61EA4DB25CD173E1648379D8A7E4 /* QNRefresher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94417E5D630F0DD170158FEC0C4ECBDA /* QNLruCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 15FF45A22888E5AA262AF35430FFC89A /* QNLruCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -55,6 +55,14 @@
 		A86197F4F3C92350321F83ED2B8599DE /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 84FDBC27EA684CFFBB6ADA20AB18EBD5 /* error.c */; };
 		A97C2E0AF987237179F2E2DA76CFF703 /* HappyDNS.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD9F0A571426F9B79656F1BDA214AAA /* HappyDNS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF19688BF991B094DAEB7AF8B699B7E5 /* QNIpModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE716264B4E2DFFC4B2369D9BB340ED4 /* QNIpModel.m */; };
+		B2ABFC8F1DC0B3B700B4F398 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B2ABFC831DC0B3B700B4F398 /* AppDelegate.h */; };
+		B2ABFC901DC0B3B700B4F398 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC841DC0B3B700B4F398 /* AppDelegate.m */; };
+		B2ABFC911DC0B3B700B4F398 /* JSONS.h in Headers */ = {isa = PBXBuildFile; fileRef = B2ABFC881DC0B3B700B4F398 /* JSONS.h */; };
+		B2ABFC921DC0B3B700B4F398 /* JSONS.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC891DC0B3B700B4F398 /* JSONS.m */; };
+		B2ABFC931DC0B3B700B4F398 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC8A1DC0B3B700B4F398 /* main.m */; };
+		B2ABFC941DC0B3B700B4F398 /* NetWorking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC8B1DC0B3B700B4F398 /* NetWorking.xcdatamodeld */; };
+		B2ABFC951DC0B3B700B4F398 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B2ABFC8D1DC0B3B700B4F398 /* ViewController.h */; };
+		B2ABFC961DC0B3B700B4F398 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC8E1DC0B3B700B4F398 /* ViewController.m */; };
 		B593E1A528707667F3DF13F57FD205BD /* QNTxtResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D51F1BC2E9EA7917179D225352EE7B /* QNTxtResolver.m */; };
 		B64C317EC08F1BC8A80F64558ABE4556 /* QNGetAddrInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE25E9686290F51C8A512680067F7E1 /* QNGetAddrInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7D12F38DC421417662E0EE9B20E63B7 /* QNDes.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF309198FCECDDB82DAC6FFB01DD331 /* QNDes.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -164,6 +172,17 @@
 		A100A467A908523D13E08E985A41426C /* hashswf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hashswf.c; path = "Pod/Classes/pili-librtmp/hashswf.c"; sourceTree = "<group>"; };
 		A91EB1544BDBC4E4A82D8E22F2790177 /* libPLStreamingKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPLStreamingKit.a; path = Pod/Library/lib/libPLStreamingKit.a; sourceTree = "<group>"; };
 		AC7A34D58412EB671417D397C4666120 /* Pods-PLIcourse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PLIcourse.release.xcconfig"; sourceTree = "<group>"; };
+		B2ABFC831DC0B3B700B4F398 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2ABFC841DC0B3B700B4F398 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2ABFC851DC0B3B700B4F398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2ABFC861DC0B3B700B4F398 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		B2ABFC871DC0B3B700B4F398 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2ABFC881DC0B3B700B4F398 /* JSONS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONS.h; sourceTree = "<group>"; };
+		B2ABFC891DC0B3B700B4F398 /* JSONS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONS.m; sourceTree = "<group>"; };
+		B2ABFC8A1DC0B3B700B4F398 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2ABFC8C1DC0B3B700B4F398 /* NetWorking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetWorking.xcdatamodel; sourceTree = "<group>"; };
+		B2ABFC8D1DC0B3B700B4F398 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2ABFC8E1DC0B3B700B4F398 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C028994E586BEC87308ED2C376E678C0 /* rtmp_sys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rtmp_sys.h; path = "Pod/Classes/pili-librtmp/rtmp_sys.h"; sourceTree = "<group>"; };
 		C17D7AC8EBACA7D0F86CE0E36D23CE71 /* HappyDNS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HappyDNS-prefix.pch"; sourceTree = "<group>"; };
 		C53377CCCB7CA6585C6DA9CE850FA2E7 /* Pods-PLIcourse-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PLIcourse-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -352,6 +371,17 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
+				B2ABFC831DC0B3B700B4F398 /* AppDelegate.h */,
+				B2ABFC841DC0B3B700B4F398 /* AppDelegate.m */,
+				B2ABFC851DC0B3B700B4F398 /* Assets.xcassets */,
+				B2ABFC861DC0B3B700B4F398 /* Base.lproj */,
+				B2ABFC871DC0B3B700B4F398 /* Info.plist */,
+				B2ABFC881DC0B3B700B4F398 /* JSONS.h */,
+				B2ABFC891DC0B3B700B4F398 /* JSONS.m */,
+				B2ABFC8A1DC0B3B700B4F398 /* main.m */,
+				B2ABFC8B1DC0B3B700B4F398 /* NetWorking.xcdatamodeld */,
+				B2ABFC8D1DC0B3B700B4F398 /* ViewController.h */,
+				B2ABFC8E1DC0B3B700B4F398 /* ViewController.m */,
 				841C1F1F1DC0AC510057156F /* api-diffs-1.2.0.md */,
 				841C1F201DC0AC510057156F /* api-diffs-1.2.1.md */,
 				841C1F211DC0AC510057156F /* api-diffs-1.2.2.md */,
@@ -468,6 +498,7 @@
 				B7D12F38DC421417662E0EE9B20E63B7 /* QNDes.h in Headers */,
 				DA440F9CB171FE17C754E745DC98AC96 /* QNDnsManager.h in Headers */,
 				830AF14825B077808B6E3F6DD67C8170 /* QNDnspodEnterprise.h in Headers */,
+				B2ABFC951DC0B3B700B4F398 /* ViewController.h in Headers */,
 				0CDE2CA955C8125A61CE7E33912C77AC /* QNDnspodFree.h in Headers */,
 				418DB458CB140D0601919A2483CF5945 /* QNDomain.h in Headers */,
 				B64C317EC08F1BC8A80F64558ABE4556 /* QNGetAddrInfo.h in Headers */,
@@ -477,6 +508,7 @@
 				C3580AFBA56D1C7E895407E492829CBC /* QNIP.h in Headers */,
 				F91423909334D78E1F5D8041005529BA /* QNIpModel.h in Headers */,
 				94417E5D630F0DD170158FEC0C4ECBDA /* QNLruCache.h in Headers */,
+				B2ABFC911DC0B3B700B4F398 /* JSONS.h in Headers */,
 				D5ECD6E91AC66A990120679D90482B3C /* QNNetworkInfo.h in Headers */,
 				D9733A7217A90E43CFE6FE0A45F1F43C /* QNRecord.h in Headers */,
 				9312CCF6629B882D670E8AF398A91172 /* QNRefresher.h in Headers */,
@@ -484,6 +516,7 @@
 				3ADD0967301BC6574E7B73450DDD3898 /* QNResolverDelegate.h in Headers */,
 				8231A866A58DF8BF7400D745C46787A6 /* QNResolvUtil.h in Headers */,
 				21BAF04B78C72F2D4FFE1F6E665C77DE /* QNTxtResolver.h in Headers */,
+				B2ABFC8F1DC0B3B700B4F398 /* AppDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,8 +641,10 @@
 			files = (
 				6DB0679652CDB744FD4670AE73F0EA32 /* HappyDNS-dummy.m in Sources */,
 				BC54578C581E41FD246DE75D82049C7D /* QNAssessment.m in Sources */,
+				B2ABFC901DC0B3B700B4F398 /* AppDelegate.m in Sources */,
 				4334D7694959E92DF001DAE26DAA7F51 /* QNDes.m in Sources */,
 				841C1F281DC0AC510057156F /* api-diffs-1.2.3.md in Sources */,
+				B2ABFC931DC0B3B700B4F398 /* main.m in Sources */,
 				841C1F271DC0AC510057156F /* api-diffs-1.2.2.md in Sources */,
 				841C1F2A1DC0AC510057156F /* api-diffs-1.2.5.md in Sources */,
 				04CD312F37D85B5D89BDD95006A15D4F /* QNDnsManager.m in Sources */,
@@ -628,10 +663,13 @@
 				976CE25D7F45DCAD10BCF1FB63807124 /* QNNetworkInfo.m in Sources */,
 				BB3FBE145CC2953B7A1E5F505C491D4D /* QNRecord.m in Sources */,
 				2231AAAB5515DC6A09B6B136B3076DF5 /* QNRefresher.m in Sources */,
+				B2ABFC961DC0B3B700B4F398 /* ViewController.m in Sources */,
+				B2ABFC921DC0B3B700B4F398 /* JSONS.m in Sources */,
 				426D104B0972B24B958B15F0C1CF0CF0 /* QNResolver.m in Sources */,
 				841C1F261DC0AC510057156F /* api-diffs-1.2.1.md in Sources */,
 				397B373FA00B655FF1DD50F9C64E5C49 /* QNResolvUtil.m in Sources */,
 				B593E1A528707667F3DF13F57FD205BD /* QNTxtResolver.m in Sources */,
+				B2ABFC941DC0B3B700B4F398 /* NetWorking.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -907,6 +945,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2ABFC8B1DC0B3B700B4F398 /* NetWorking.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2ABFC8C1DC0B3B700B4F398 /* NetWorking.xcdatamodel */,
+			);
+			currentVersion = B2ABFC8C1DC0B3B700B4F398 /* NetWorking.xcdatamodel */;
+			path = NetWorking.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }
