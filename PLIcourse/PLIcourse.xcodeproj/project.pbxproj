@@ -17,6 +17,8 @@
 		B2ABFC581DC08B2900B4F398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2ABFC561DC08B2900B4F398 /* LaunchScreen.storyboard */; };
 		B2ABFC631DC08B2900B4F398 /* PLIcourseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC621DC08B2900B4F398 /* PLIcourseTests.m */; };
 		B2ABFC6E1DC08B2900B4F398 /* PLIcourseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC6D1DC08B2900B4F398 /* PLIcourseUITests.m */; };
+		B2ABFC7F1DC08E3100B4F398 /* PlcLobbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC7C1DC08E3100B4F398 /* PlcLobbyViewController.m */; };
+		B2ABFC801DC08E3100B4F398 /* PlcBroadcastRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC7E1DC08E3100B4F398 /* PlcBroadcastRoomViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		B2ABFC691DC08B2900B4F398 /* PLIcourseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PLIcourseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2ABFC6D1DC08B2900B4F398 /* PLIcourseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLIcourseUITests.m; sourceTree = "<group>"; };
 		B2ABFC6F1DC08B2900B4F398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2ABFC7B1DC08E3100B4F398 /* PlcLobbyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlcLobbyViewController.h; sourceTree = "<group>"; };
+		B2ABFC7C1DC08E3100B4F398 /* PlcLobbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlcLobbyViewController.m; sourceTree = "<group>"; };
+		B2ABFC7D1DC08E3100B4F398 /* PlcBroadcastRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlcBroadcastRoomViewController.h; sourceTree = "<group>"; };
+		B2ABFC7E1DC08E3100B4F398 /* PlcBroadcastRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlcBroadcastRoomViewController.m; sourceTree = "<group>"; };
 		CA618E44887AFB0A6B0A0C5B /* Pods-PLIcourse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLIcourse.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLIcourse/Pods-PLIcourse.release.xcconfig"; sourceTree = "<group>"; };
 		E6AEDB9C599B42867CDE7CAF /* Pods-PLIcourse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLIcourse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLIcourse/Pods-PLIcourse.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +121,10 @@
 				B2ABFC4B1DC08B2900B4F398 /* ViewController.h */,
 				B2ABFC4C1DC08B2900B4F398 /* ViewController.m */,
 				B2ABFC4E1DC08B2900B4F398 /* Main.storyboard */,
+				B2ABFC7B1DC08E3100B4F398 /* PlcLobbyViewController.h */,
+				B2ABFC7C1DC08E3100B4F398 /* PlcLobbyViewController.m */,
+				B2ABFC7D1DC08E3100B4F398 /* PlcBroadcastRoomViewController.h */,
+				B2ABFC7E1DC08E3100B4F398 /* PlcBroadcastRoomViewController.m */,
 				B2ABFC541DC08B2900B4F398 /* Assets.xcassets */,
 				B2ABFC561DC08B2900B4F398 /* LaunchScreen.storyboard */,
 				B2ABFC591DC08B2900B4F398 /* Info.plist */,
@@ -348,9 +358,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2ABFC7F1DC08E3100B4F398 /* PlcLobbyViewController.m in Sources */,
 				B2ABFC531DC08B2900B4F398 /* PLIcourse.xcdatamodeld in Sources */,
 				B2ABFC4D1DC08B2900B4F398 /* ViewController.m in Sources */,
 				B2ABFC4A1DC08B2900B4F398 /* AppDelegate.m in Sources */,
+				B2ABFC801DC08E3100B4F398 /* PlcBroadcastRoomViewController.m in Sources */,
 				B2ABFC471DC08B2900B4F398 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
