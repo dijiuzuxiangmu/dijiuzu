@@ -5,6 +5,9 @@
       location = "group:PLIcourse.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:PLPlayerKit">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

@@ -38,6 +38,12 @@
 		81D9621463A7404DAC77839259365800 /* rtmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6FFEBFE452622B266227F4F5F6AA40 /* rtmp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8231A866A58DF8BF7400D745C46787A6 /* QNResolvUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D936818A1DFF229A15BE11C75B43B31B /* QNResolvUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		830AF14825B077808B6E3F6DD67C8170 /* QNDnspodEnterprise.h in Headers */ = {isa = PBXBuildFile; fileRef = C55317B9A3235A54AADA5D23A1143E66 /* QNDnspodEnterprise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		841C1F251DC0AC510057156F /* api-diffs-1.2.0.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F1F1DC0AC510057156F /* api-diffs-1.2.0.md */; settings = {ASSET_TAGS = (); }; };
+		841C1F261DC0AC510057156F /* api-diffs-1.2.1.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F201DC0AC510057156F /* api-diffs-1.2.1.md */; settings = {ASSET_TAGS = (); }; };
+		841C1F271DC0AC510057156F /* api-diffs-1.2.2.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F211DC0AC510057156F /* api-diffs-1.2.2.md */; settings = {ASSET_TAGS = (); }; };
+		841C1F281DC0AC510057156F /* api-diffs-1.2.3.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F221DC0AC510057156F /* api-diffs-1.2.3.md */; settings = {ASSET_TAGS = (); }; };
+		841C1F291DC0AC510057156F /* api-diffs-1.2.4.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F231DC0AC510057156F /* api-diffs-1.2.4.md */; settings = {ASSET_TAGS = (); }; };
+		841C1F2A1DC0AC510057156F /* api-diffs-1.2.5.md in Sources */ = {isa = PBXBuildFile; fileRef = 841C1F241DC0AC510057156F /* api-diffs-1.2.5.md */; settings = {ASSET_TAGS = (); }; };
 		8B7B75BDDA8FB5F466A5CB10D5811A26 /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = DD57217828306B73D23A42108F9882D3 /* log.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9312CCF6629B882D670E8AF398A91172 /* QNRefresher.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5B61EA4DB25CD173E1648379D8A7E4 /* QNRefresher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94417E5D630F0DD170158FEC0C4ECBDA /* QNLruCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 15FF45A22888E5AA262AF35430FFC89A /* QNLruCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -135,6 +141,12 @@
 		7A27702922D80AF0BB9BBCFA8A4E78EB /* PLStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PLStream.h; path = Pod/Library/include/PLStreamingKit/PLStream.h; sourceTree = "<group>"; };
 		7AC62451C3DC3AE8E2B51C1D64243EB7 /* QNDomain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNDomain.m; path = HappyDNS/Common/QNDomain.m; sourceTree = "<group>"; };
 		83EE3002F161613FA96BBFBB7B0CE9ED /* Pods-PLIcourse-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PLIcourse-frameworks.sh"; sourceTree = "<group>"; };
+		841C1F1F1DC0AC510057156F /* api-diffs-1.2.0.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "api-diffs-1.2.0.md"; sourceTree = "<group>"; };
+		841C1F201DC0AC510057156F /* api-diffs-1.2.1.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "api-diffs-1.2.1.md"; sourceTree = "<group>"; };
+		841C1F211DC0AC510057156F /* api-diffs-1.2.2.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "api-diffs-1.2.2.md"; sourceTree = "<group>"; };
+		841C1F221DC0AC510057156F /* api-diffs-1.2.3.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "api-diffs-1.2.3.md"; sourceTree = "<group>"; };
+		841C1F231DC0AC510057156F /* api-diffs-1.2.4.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "api-diffs-1.2.4.md"; sourceTree = "<group>"; };
+		841C1F241DC0AC510057156F /* api-diffs-1.2.5.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "api-diffs-1.2.5.md"; sourceTree = "<group>"; };
 		84FDBC27EA684CFFBB6ADA20AB18EBD5 /* error.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = error.c; path = "Pod/Classes/pili-librtmp/error.c"; sourceTree = "<group>"; };
 		8F0C08711DBC1E42DE6CFDB4B12C4A27 /* pili-librtmp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pili-librtmp-prefix.pch"; sourceTree = "<group>"; };
 		933D3E90D9E98158CFC8DB1B5D1836CB /* libPLCameraStreamingKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libPLCameraStreamingKit.a; path = Pod/Library/lib/libPLCameraStreamingKit.a; sourceTree = "<group>"; };
@@ -340,6 +352,12 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
+				841C1F1F1DC0AC510057156F /* api-diffs-1.2.0.md */,
+				841C1F201DC0AC510057156F /* api-diffs-1.2.1.md */,
+				841C1F211DC0AC510057156F /* api-diffs-1.2.2.md */,
+				841C1F221DC0AC510057156F /* api-diffs-1.2.3.md */,
+				841C1F231DC0AC510057156F /* api-diffs-1.2.4.md */,
+				841C1F241DC0AC510057156F /* api-diffs-1.2.5.md */,
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				C29CE5FE6D30A688BDBA918EF5AE67E5 /* Pods */,
@@ -591,14 +609,19 @@
 				6DB0679652CDB744FD4670AE73F0EA32 /* HappyDNS-dummy.m in Sources */,
 				BC54578C581E41FD246DE75D82049C7D /* QNAssessment.m in Sources */,
 				4334D7694959E92DF001DAE26DAA7F51 /* QNDes.m in Sources */,
+				841C1F281DC0AC510057156F /* api-diffs-1.2.3.md in Sources */,
+				841C1F271DC0AC510057156F /* api-diffs-1.2.2.md in Sources */,
+				841C1F2A1DC0AC510057156F /* api-diffs-1.2.5.md in Sources */,
 				04CD312F37D85B5D89BDD95006A15D4F /* QNDnsManager.m in Sources */,
 				029292E8EA2EA76B6DF35E69345C671F /* QNDnspodEnterprise.m in Sources */,
 				2B513ECF64385743D74E3B23B38F6011 /* QNDnspodFree.m in Sources */,
+				841C1F251DC0AC510057156F /* api-diffs-1.2.0.md in Sources */,
 				D09D10AB5788A1DA9FA85CEDFB4013CC /* QNDomain.m in Sources */,
 				0850D995837DBD9852734997A15D6CC5 /* QNGetAddrInfo.m in Sources */,
 				3D21E64FE48AEB1FE7DE5329924BC61F /* QNHex.m in Sources */,
 				4A79B8A7B6A88AAC80F82A6515020F99 /* QNHijackingDetectWrapper.m in Sources */,
 				37A11EA61D87BF82EAC0B84B07857E8D /* QNHosts.m in Sources */,
+				841C1F291DC0AC510057156F /* api-diffs-1.2.4.md in Sources */,
 				29869CE6733D7BEA6986E8B39D29E1ED /* QNIP.m in Sources */,
 				AF19688BF991B094DAEB7AF8B699B7E5 /* QNIpModel.m in Sources */,
 				993FE475C073DAC4A4262E023A463BA9 /* QNLruCache.m in Sources */,
@@ -606,6 +629,7 @@
 				BB3FBE145CC2953B7A1E5F505C491D4D /* QNRecord.m in Sources */,
 				2231AAAB5515DC6A09B6B136B3076DF5 /* QNRefresher.m in Sources */,
 				426D104B0972B24B958B15F0C1CF0CF0 /* QNResolver.m in Sources */,
+				841C1F261DC0AC510057156F /* api-diffs-1.2.1.md in Sources */,
 				397B373FA00B655FF1DD50F9C64E5C49 /* QNResolvUtil.m in Sources */,
 				B593E1A528707667F3DF13F57FD205BD /* QNTxtResolver.m in Sources */,
 			);
