@@ -19,6 +19,10 @@
 		B2ABFC6E1DC08B2900B4F398 /* PLIcourseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC6D1DC08B2900B4F398 /* PLIcourseUITests.m */; };
 		B2ABFC7F1DC08E3100B4F398 /* PlcLobbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC7C1DC08E3100B4F398 /* PlcLobbyViewController.m */; };
 		B2ABFC801DC08E3100B4F398 /* PlcBroadcastRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC7E1DC08E3100B4F398 /* PlcBroadcastRoomViewController.m */; };
+		B2ABFCA01DC0B56500B4F398 /* release-notes-1.1.2.md in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC9C1DC0B56500B4F398 /* release-notes-1.1.2.md */; };
+		B2ABFCA11DC0B56500B4F398 /* release-notes-1.1.3.md in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC9D1DC0B56500B4F398 /* release-notes-1.1.3.md */; };
+		B2ABFCA21DC0B56500B4F398 /* release-notes-1.1.4.md in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC9E1DC0B56500B4F398 /* release-notes-1.1.4.md */; };
+		B2ABFCA31DC0B56500B4F398 /* release-notes-1.1.5.md in Sources */ = {isa = PBXBuildFile; fileRef = B2ABFC9F1DC0B56500B4F398 /* release-notes-1.1.5.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,15 @@
 		B2ABFC7C1DC08E3100B4F398 /* PlcLobbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlcLobbyViewController.m; sourceTree = "<group>"; };
 		B2ABFC7D1DC08E3100B4F398 /* PlcBroadcastRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlcBroadcastRoomViewController.h; sourceTree = "<group>"; };
 		B2ABFC7E1DC08E3100B4F398 /* PlcBroadcastRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlcBroadcastRoomViewController.m; sourceTree = "<group>"; };
+		B2ABFC971DC0B55100B4F398 /* PLAudioCaptureConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLAudioCaptureConfiguration.h; sourceTree = "<group>"; };
+		B2ABFC981DC0B55100B4F398 /* PLCameraStreamingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLCameraStreamingKit.h; sourceTree = "<group>"; };
+		B2ABFC991DC0B55100B4F398 /* PLCameraStreamingSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLCameraStreamingSession.h; sourceTree = "<group>"; };
+		B2ABFC9A1DC0B55100B4F398 /* PLSourceAccessProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLSourceAccessProtocol.h; sourceTree = "<group>"; };
+		B2ABFC9B1DC0B55100B4F398 /* PLVideoCaptureConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLVideoCaptureConfiguration.h; sourceTree = "<group>"; };
+		B2ABFC9C1DC0B56500B4F398 /* release-notes-1.1.2.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "release-notes-1.1.2.md"; sourceTree = "<group>"; };
+		B2ABFC9D1DC0B56500B4F398 /* release-notes-1.1.3.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "release-notes-1.1.3.md"; sourceTree = "<group>"; };
+		B2ABFC9E1DC0B56500B4F398 /* release-notes-1.1.4.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "release-notes-1.1.4.md"; sourceTree = "<group>"; };
+		B2ABFC9F1DC0B56500B4F398 /* release-notes-1.1.5.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "release-notes-1.1.5.md"; sourceTree = "<group>"; };
 		CA618E44887AFB0A6B0A0C5B /* Pods-PLIcourse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLIcourse.release.xcconfig"; path = "Pods/Target Support Files/Pods-PLIcourse/Pods-PLIcourse.release.xcconfig"; sourceTree = "<group>"; };
 		E6AEDB9C599B42867CDE7CAF /* Pods-PLIcourse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLIcourse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PLIcourse/Pods-PLIcourse.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,6 +186,15 @@
 			children = (
 				E6AEDB9C599B42867CDE7CAF /* Pods-PLIcourse.debug.xcconfig */,
 				CA618E44887AFB0A6B0A0C5B /* Pods-PLIcourse.release.xcconfig */,
+				B2ABFC971DC0B55100B4F398 /* PLAudioCaptureConfiguration.h */,
+				B2ABFC981DC0B55100B4F398 /* PLCameraStreamingKit.h */,
+				B2ABFC991DC0B55100B4F398 /* PLCameraStreamingSession.h */,
+				B2ABFC9A1DC0B55100B4F398 /* PLSourceAccessProtocol.h */,
+				B2ABFC9B1DC0B55100B4F398 /* PLVideoCaptureConfiguration.h */,
+				B2ABFC9C1DC0B56500B4F398 /* release-notes-1.1.2.md */,
+				B2ABFC9D1DC0B56500B4F398 /* release-notes-1.1.3.md */,
+				B2ABFC9E1DC0B56500B4F398 /* release-notes-1.1.4.md */,
+				B2ABFC9F1DC0B56500B4F398 /* release-notes-1.1.5.md */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -359,11 +381,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2ABFC7F1DC08E3100B4F398 /* PlcLobbyViewController.m in Sources */,
+				B2ABFCA01DC0B56500B4F398 /* release-notes-1.1.2.md in Sources */,
+				B2ABFCA31DC0B56500B4F398 /* release-notes-1.1.5.md in Sources */,
+				B2ABFCA11DC0B56500B4F398 /* release-notes-1.1.3.md in Sources */,
 				B2ABFC531DC08B2900B4F398 /* PLIcourse.xcdatamodeld in Sources */,
 				B2ABFC4D1DC08B2900B4F398 /* ViewController.m in Sources */,
 				B2ABFC4A1DC08B2900B4F398 /* AppDelegate.m in Sources */,
 				B2ABFC801DC08E3100B4F398 /* PlcBroadcastRoomViewController.m in Sources */,
 				B2ABFC471DC08B2900B4F398 /* main.m in Sources */,
+				B2ABFCA21DC0B56500B4F398 /* release-notes-1.1.4.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
